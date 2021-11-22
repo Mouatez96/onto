@@ -8,13 +8,13 @@
 @prefix tennis: <http://sport-tennis.org/tennis#> .
 
 
-
+### ontologie tennis, il y a comme classes pricipales jouer, entraineur, sport, terrain, tournoi
 
 tennis:athlète a rdfs:Class ;
              rdfs:label "jouer" ;
              
 tennis:entraineur a rdfs:Class ;
-             rdfs:label "entrainneur" ;
+             rdfs:label "entraineur" ;
              
 tennis:sport a rdfs:Class ;
              rdfs:label "sport" ;
@@ -25,7 +25,7 @@ tennis:terrain a rdfs:Class ;
 tennis:tournoi a rdfs:Class ;
              rdfs:label "tournoi" ;
 
-
+### les propriétés de l'ontologie :
 
 
 tennis:entraine a rdf:Property ;
